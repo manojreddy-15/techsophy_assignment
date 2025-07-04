@@ -1,0 +1,18 @@
+stocks:
+  - TCS.NS
+  - RELIANCE.NS
+  - HDFCBANK.NS
+  - ADANIGREEN.BO
+  - GENSOL.NS
+  - TRENT.NS
+  -  GOOGL
+api:
+  provider: yfinance
+anomaly:
+  method: zscore 
+  zscore_threshold: 3.5
+  moving_average_window: 50
+alert:
+  method: console  
+
+interval_seconds: 60
