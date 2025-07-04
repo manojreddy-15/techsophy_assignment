@@ -16,7 +16,6 @@ This Python application monitors selected stock prices in real time and generate
 - `src/processing/` - Data validation and preprocessing
 - `src/detection/` - Anomaly detection logic (z-score, threshold, LSTM)
 - `src/alerting/` - Alert generation and notification
-- `src/utils/` - Shared utilities
 - `main.py` - Application entry point
 
 ## Setup
